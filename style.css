@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url('images/3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.header{
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: linear-gradient(to top, rgba(0,0,0,0.2)50%, rgba(0,0,0,0.2)50%);
+}
+.logo{
+    width: 250px;
+    float: left;
+}
+.logo img{
+    width: 150px;
+    margin-top: 25px;
+}
+.menu{
+    width: 550px;
+    float: left;
+}
+.search{
+    width: 300px;
+    float: right;
+}
+.manubar li{
+    float: left;
+    margin-top: 50px;
+    margin-right: 38px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.manubar li a{
+    color: azure;
+    transition: 0.10s;
+}
+.manubar li a:hover{
+    color: black;
+}
+.searchbar{
+    width: 180px;
+    height: 30px;
+    margin-top: 40px;
+    border: 1px solid #25f7d8;
+    background-color: transparent;
+    border-right: none;
+}
+::placeholder{
+    color: azure;
+    font-size: 14px;
+    font-weight: bold;
+}
+.searchbtn{
+    background-color: #25f7d8;
+    border: 1px solid #25f7d8;
+    width: 85px;
+    height: 32px;
+    color: azure;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    left: -3px;
+    cursor: pointer;
+}
+
+/* midbody start here */
+
+.midbody{
+    width: 1140px;
+    margin: 0 auto;
+}
+.midbody-left{
+    margin-top: 150px;
+    float: left;
+}
+.midbody-left span{
+    color: #3d7ff2;
+}
+.midbody-left h1{
+    color: white;
+    line-height: 1.5;
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.midbody-left p{
+    color: white;
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times,
+}
+.joinbtn{
+    background-color: #25f7d8;
+    border: 1px solid #25f7d8;
+    width: 130px;
+    height: 32px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    transition: .5s;
+}
+.joinbtn:hover{
+    color: white;
+}
+.midbody-right form{
+    background-color: #1f1d1c;
+    width: 340px;
+    height: 520px;
+    float: right;
+    margin-top: 80px;
+    margin-right: 24px;
+}
+.logbtn{
+    background-color: white;
+    color: #3d7ff2;
+    width: 260px;
+    height: 40px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin: 35px 40px 20px 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 8px;
+}
+.subbtn{
+    background-color: #3d7ff2;
+    width: 260px;
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin: 30px 40px 30px 40px;
+    font-weight: bold;
+    border-color: #3d7ff2;
+    transition: 0.5s;
+}
+.subbtn:hover{
+    color: white;
+}
+.emailhere{
+    background-color: transparent;
+    border: 1px solid #3d7ff2;
+    padding: 15px 0;
+    width: 255px;
+    margin-left: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
+}
+.emailhere:focus{
+    outline: none;
+}
+.midbody-right p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.midbody-right p a{
+    color: #3d7ff2;
+    text-decoration: none;
+}
+.logcls{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 18px;
+}
+
+/* icon start here  */
+
+.icon i{
+    font-size: 26px;
+    color: white;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
